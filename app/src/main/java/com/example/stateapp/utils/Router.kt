@@ -5,9 +5,9 @@ import androidx.navigation.compose.composable
 
 @Composable
 fun Router(navController: NavHostController) {
-    NavHost(navController = navController, startDestination = "home") {
-        composable("home") { HomeScreen(navController) }
-        composable("detailed") { DetailedScreen(navController) }
+    NavHost(navController = navController, startDestination = "HomeScreen") {
+        composable("HomeScreen") { HomeScreen(navController) }
+        composable("DetailedScreen",) { DetailedScreen(navController) }
 
     }
 }

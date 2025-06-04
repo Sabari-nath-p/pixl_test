@@ -1,5 +1,5 @@
 data class Fruit(
-    val id: Int,
+    val id: String,
     val name: String,
     val family: String,
     val order: String,

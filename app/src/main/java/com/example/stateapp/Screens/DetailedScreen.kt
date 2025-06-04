@@ -8,7 +8,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 
 @Composable
-fun  DetailedScreen(navController: NavController) {
+fun  DetailedScreen(navController: NavController,) {
 
     Column(Modifier.padding(horizontal = 30.dp, vertical = 20.dp))
    {

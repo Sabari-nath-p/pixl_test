@@ -26,13 +26,12 @@ fun CustomNavigation(title: String){
     Box(
         Modifier.background(color = Color.Blue)
     ){
-        Row (Modifier.padding(top = 40.dp, bottom = 15.dp, start = 10.dp).background(color = Color.Blue.copy(alpha = .5f)).fillMaxWidth(), verticalAlignment = Alignment.CenterVertically,){
+        Row (Modifier.padding(top = 40.dp, bottom = 15.dp, start = 10.dp).background(color = Color.Blue.copy(alpha = .1f)).fillMaxWidth(), verticalAlignment = Alignment.CenterVertically,){
 
             Icon(
                 imageVector = Icons.Outlined.KeyboardArrowLeft,
                 contentDescription = "Right arrow",
                 modifier = Modifier.size(30.dp),
-
                 tint = Color.White
             )
             Spacer(Modifier.width(10.dp))
